@@ -1,0 +1,142 @@
+#signup {
+  position: relative;
+  min-height: 395px;
+  background: url('../img/lights.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+}
+#trial {
+  position: relative;
+  min-height: 300px;
+  background: url('../img/lights.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+}
+
+.blue-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(41, 137, 167, 0.7);
+}
+
+.fa-check-circle {
+  background: white;
+  color: rgb(48, 168, 48);
+}
+
+.ul-crd,
+.ul-fot {
+  padding-inline-start: 0% !important;
+  list-style: none;
+}
+
+.crd-2 {
+  z-index: 1;
+}
+
+#slider {
+  /*height: 350px;
+    overflow: hidden;
+    width: 100%;*/
+}
+
+/* .carousel-item {
+  height: 400px;
+} */
+
+.carousel-indicators li {
+  background-color: black;
+}
+.carousel-indicators .active {
+  background-color: #007cb4;
+}
+
+.img-caro {
+  max-width: 100%;
+  height: 80px;
+}
+
+.car-crd {
+  position: relative;
+}
+
+.fa-quote-left {
+  color: rgb(218, 210, 210) !important;
+}
+
+.pb {
+  padding-bottom: 2.3rem !important;
+}
+
+.fa-quote-left::before {
+  position: absolute;
+  top: -2rem !important;
+  left: 20rem;
+  z-index: 1;
+}
+@media only screen and (max-width: 56.25em) {
+  .fa-quote-left::before {
+    position: absolute !important;
+    top: -2rem !important;
+    left: 8.5rem !important;
+    z-index: 1 !important;
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  .fa-quote-left::before {
+    position: absolute !important;
+    top: -2rem !important;
+    left: 7rem !important;
+    z-index: 1 !important;
+  }
+}
+
+.footer {
+  background: #003e5a;
+}
+
+.brd-fot {
+  border-top: 1px solid black !important;
+}
+
+.circ {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  font-size: 50px;
+  color: #fff;
+  line-height: 500px;
+  text-align: center;
+  background: #007cb4;
+  position: relative;
+}
+
+.fa-briefcase,
+.vid,
+.fa-address-card {
+  position: absolute;
+  top: 17px;
+  left: 19px;
+}
+
+.fa-address-book {
+  position: absolute;
+  top: 17px;
+  left: 22px;
+}
+
+.circ-row {
+  padding: 0;
+}
+@media screen and(max-width:600px) {
+  .circ-row {
+    display: none !important;
+  }
+}
